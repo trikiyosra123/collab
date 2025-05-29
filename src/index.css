@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+
+}
+
+.layout {   
+  background-color: black!important
+}
+
+/* Login Page CSS
+ */
+ .login {
+  background-color: #e4e0e0;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.login__container {
+  padding: 100px;
+  text-align: center;
+  border: white;
+  background-color: rgb(187, 202, 187);
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px;
+}
+
+.login__container > img {
+  object-fit: contain;
+  height: 150px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.login__container > button {
+  margin-top: 20px;
+  text-transform: inherit !important;
+  background-color: #e44127 !important;
+  color: white;
+}
